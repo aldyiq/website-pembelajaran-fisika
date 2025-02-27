@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #222ede;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #1515cae9;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #2980b9;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b84d4d;
+    padding: 20px;
+    color: white;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    text-align: justify;
+}
+
+.card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.formula-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #22bd41;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
