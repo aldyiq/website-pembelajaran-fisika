@@ -52,6 +52,19 @@ body {
     display: block;
 }
 
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(11, 8, 190);
+    object-fit: cover;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -75,11 +88,11 @@ body {
     padding: 20px;
     border-radius: 8px;
     margin-top: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(73, 110, 162, 0.951);
 }
 
 .footer {
-    background-color: #22bd41;
+    background-color: #bd4922;
     color: white;
     text-align: center;
     padding: 20px;
@@ -87,5 +100,5 @@ body {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #5ec1eb;
 }
