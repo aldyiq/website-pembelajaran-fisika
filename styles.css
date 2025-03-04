@@ -8,8 +8,12 @@ body {
 .header {
     background-color: #222ede;
     color: white;
-    padding: 20px;
- }
+   padding: 20px;
+}
+
+.header > img {
+   width: 100%;
+}
 
 .nav {
     background-color: #1515cae9;
