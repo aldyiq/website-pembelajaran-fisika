@@ -45,7 +45,13 @@ document.addEventListener("DOMContentLoaded", function () {
     signInBtn.addEventListener("click", function () {
         alert("Anda telah masuk dengan akun Gmail!");
     });
+    function openLink(url) {
+        window.open(url, '_blank'); 
+    }
 
+    function showAlert(message) {
+        alert("Anda menekan tombol: " + message);
+    }
     async function fetchData() {
         try {
             let response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
