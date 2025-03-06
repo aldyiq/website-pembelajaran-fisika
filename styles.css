@@ -1,12 +1,16 @@
-body {
-  font-family: "Poppins", sans-serif;
+*, *::before, *::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
   line-height: 1.8;
   background-color: #f4f4f4;
 }
 
-.center {
+section > h2 {
   text-align: center;
 }
 
@@ -46,9 +50,13 @@ body {
   background-color: #1abc9c;
 }
 
-.content {
+.profil-pengajar {
+  padding: 1rem;
+}
+
+.cv {
   padding: 20px;
-  max-width: 900px;
+  max-width: 768px;
   margin: 0 auto;
   background: white;
   border-radius: 10px;
@@ -102,14 +110,17 @@ body {
 }
 
 .labs {
-  width: 100%;
+  max-width: 900px;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
 }
 
 .labs > iframe {
-  width: 100%;
+  width: 95%;
 }
 
 .modul {
@@ -119,6 +130,7 @@ body {
 .modul > a {
   color: white;
   text-decoration: none;
+  text-align: center;
   font-weight: 600;
   background-color: #2980b9;
   max-width: 320px;
