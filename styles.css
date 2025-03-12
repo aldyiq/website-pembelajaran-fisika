@@ -153,7 +153,11 @@ nav a:hover {
   text-align: justify;
 }
 
-.labs {
+.modul > .note {
+  padding-left: 2rem;
+}
+
+:where(.labs, .modul) {
   max-width: 900px;
   padding: 0.5rem;
   margin: 0 auto;
@@ -164,11 +168,11 @@ nav a:hover {
   gap: 1.5rem;
 }
 
-.labs > iframe {
+:where(.labs, .modul) > iframe {
   width: 95%;
 }
 
-.modul > a {
+:where(.permainan-awal, .modul, .gim-dan-kuis) > a {
   color: white;
   text-decoration: none;
   text-align: center;
@@ -185,7 +189,7 @@ nav a:hover {
   -o-border-radius: 10px;
 }
 
-.modul > a:hover {
+:where(.permainan-awal, .modul, .gim-dan-kuis) > a:hover {
   background-color: #1abc9c;
   color: white;
   transition: 0.3s;
@@ -208,19 +212,4 @@ footer a {
   color: white;
   text-decoration: none;
   margin: 0 5px;
-}
-
-button {
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  background-color: #2980b9;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-button:hover {
-  background-color: #1abc9c;
 }
