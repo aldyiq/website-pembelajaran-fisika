@@ -168,8 +168,9 @@ nav a:hover {
   gap: 1.5rem;
 }
 
-:where(.labs, .modul) > iframe {
+:where(.labs, .modul, .gim-dan-kuis) > iframe {
   width: 95%;
+  margin: inherit auto;
 }
 
 :where(.permainan-awal, .modul, .gim-dan-kuis) > a {
