@@ -119,6 +119,7 @@ nav a:hover {
 .profile-img {
   display: block;
   max-width: 100%;
+  border: solid 2px #2c3e50;
   border-radius: 10px;
   margin: 0 auto;
 }
