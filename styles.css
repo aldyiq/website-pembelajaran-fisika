@@ -175,7 +175,7 @@ nav a:hover {
   text-align: justify;
 }
 
-.modul > .note {
+.modul  .note {
   padding-left: 2rem;
 }
 
@@ -190,12 +190,12 @@ nav a:hover {
   gap: 1.5rem;
 }
 
-:where(.labs, .modul, .gim-dan-kuis) > iframe {
+:where(.labs, .modul, .gim-dan-kuis) iframe {
   width: 95%;
   margin: inherit auto;
 }
 
-:where(.permainan-awal, .modul, .gim-dan-kuis) > a {
+:where(.permainan-awal, .modul, .gim-dan-kuis) a {
   color: var(--white);
   text-decoration: none;
   text-align: center;
@@ -212,7 +212,7 @@ nav a:hover {
   -o-border-radius: 10px;
 }
 
-:where(.permainan-awal, .modul, .gim-dan-kuis) > a:hover {
+:where(.permainan-awal, .modul, .gim-dan-kuis) a:hover {
   background-color: var(--btn-color-hover);
   color: var(--white);
   transition: 0.3s;
