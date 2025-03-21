@@ -12,6 +12,7 @@
   --step-5: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
   --dark-blue-1: #2c3e50;
   --dark-blue-2: #34495e;
+  --light-blue: #9099a2;
   --btn-color: #2980b9;
   --btn-color-hover: #1abc9c;
   --white: #f4f4f4;
@@ -100,6 +101,10 @@ nav a {
 
 nav a:hover {
   background-color: var(--btn-color-hover);
+}
+
+:where(main) > :nth-child(3n + 2) {
+  background-color: var(--light-blue);
 }
 
 :where(main) > :nth-child(3n) {
