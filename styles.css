@@ -143,9 +143,10 @@ nav a:hover {
     gap: 1rem;
 }
 
-.video-pembelajaran > video {
+.video-pembelajaran > :where(video, iframe) {
     width: 95%;
     max-width: 320px;
+    aspect-ratio: 16/9;
     object-fit: cover;
 }
 
