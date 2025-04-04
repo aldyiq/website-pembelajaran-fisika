@@ -68,12 +68,4 @@ document.addEventListener("DOMContentLoaded", function () {
         opacity: 0,
         delay: 200
     });
-
-    ScrollReveal().reveal("footer", {
-        duration: 1000,
-        origin: "bottom",
-        distance: "50px",
-        opacity: 0,
-        delay: 400
-    });
 });
