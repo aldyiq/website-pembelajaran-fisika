@@ -199,7 +199,22 @@ nav a:hover {
   width: 100%;
   margin: inherit auto;
 }
+.responsive-iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* Rasio 4:3, bisa diubah sesuai kebutuhan */
+  height: 0;
+  overflow: hidden;
+}
 
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 :where(.permainan-awal, .modul, .gim-dan-kuis) a {
   color: var(--white);
   text-decoration: none;
@@ -216,7 +231,22 @@ nav a:hover {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+.responsive-iframe-container {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* Rasio 4:3, bisa diubah sesuai kebutuhan */
+  height: 0;
+  overflow: hidden;
+}
 
+.responsive-iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
 :where(.permainan-awal, .modul, .gim-dan-kuis) a:hover {
   background-color: var(--btn-color-hover);
   color: var(--white);
