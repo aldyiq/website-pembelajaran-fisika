@@ -18,7 +18,9 @@
   --white: #f4f4f4;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -29,12 +31,13 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.8;
   background-color: var(--white);
 }
 
-body > main > section, header {
+body > main > section,
+header {
   padding: 4rem min(0.75rem, 5%);
 }
 
@@ -136,18 +139,18 @@ nav a:hover {
 }
 
 .video-pembelajaran {
-    margin: 0.5rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1rem;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-.video-pembelajaran > :where(video, iframe) {
-    width: 95%;
-    max-width: 320px;
-    aspect-ratio: 16/9;
-    object-fit: cover;
+.video-pembelajaran  > * {
+  aspect-ratio: 16/9;
+  flex: 1 1 100%;
+  max-width: 720px;
 }
 
 .materi-pembelajaran {
