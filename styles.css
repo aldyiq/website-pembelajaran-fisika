@@ -200,12 +200,12 @@ nav a:hover {
 
 :where(.labs, .modul, .gim-dan-kuis) iframe {
   width: 100%;
-  margin: inherit auto;
+  margin: 2rem auto;
 }
 .responsive-iframe-container {
   position: relative;
   width: 100%;
-  padding-top: 75%; /* Rasio 4:3, bisa diubah sesuai kebutuhan */
+  padding-top: 75%;
   height: 0;
   overflow: hidden;
 }
@@ -227,6 +227,7 @@ nav a:hover {
   max-width: 320px;
   padding: 0.75rem;
   margin: 0 auto;
+  margin-block-end: 1em;
   display: block;
   border-radius: 10px;
   -webkit-border-radius: 10px;
